@@ -35,14 +35,31 @@ nav .brand-logo {
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
-    /* top: 40%; */
   }
 }
 
 @media only screen and (max-width : 600px) {
-  #index .section {
-    top: 0;
+  .page-footer {
+    background-color: white !important;
   }
+
+  .embed-container { 
+  background-color: greenyellow;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0 !important; 
+  }
+
+  .embed-container iframe, .embed-container object, .embed-container embed { 
+  width: 100%;
+  height: 100%;
+  }
+
+  .parallax-container .parallax img {
+    height: 50%;
+  }
+
 }
 
 .icon-block {
@@ -116,17 +133,40 @@ footer.page-footer {
 .page-footer {
   display: grid;
   place-items: center;
-  padding: 100px;
+  padding: 0;
+}
 
+.page-footer .container {
+  margin: 0;
+  padding: 0;
 }
 
 .footer-copyright {
   width: 100%;
   text-align: center;
-  padding: 25px;
+  padding: 50px;
 }
 
 .rounded-border {
   border-radius: 10px;
-  box-shadow: 5px 5px 20px black;
+  box-shadow: 0px 0px 20px black;
+}
+
+.embed-container { 
+  position: relative; 
+  padding-bottom: 56.25%; 
+  height: 0; 
+  overflow: hidden; 
+  max-width: 100%;
+  margin: 50px;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed { 
+  position: absolute; 
+  width: 100%; 
+  height: 100%;
+}
+
+#vertical-center {
+  padding: 20px;
 }
