@@ -1,172 +1,163 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
 
 nav ul a,
 nav .brand-logo {
-  color: #0075b5;
+	color: #0075b5;
 }
 
-/* p {
-  line-height: 2rem;
-} */
-
 .sidenav-trigger {
-  color: #0075b5;
+	color: #0075b5;
 }
 
 .parallax-container {
-  display: grid;
-  place-items: center;
-  min-height: 380px;
-  line-height: 0;
-  height: auto;
-  color: rgba(255,255,255,.9);
-  text-align: center;
-}
-  .parallax-container .section {
-    width: 100%;
-  }
-
-@media only screen and (max-width : 992px) {
-  .parallax-container .section {
-    position: absolute;
-  }
+	display: grid;
+	place-items: center;
+	min-height: 380px;
+	line-height: 0;
+	height: auto;
+	color: rgba(255, 255, 255, .9);
+	text-align: center;
 }
 
-@media only screen and (max-width : 600px) {
-  .page-footer {
-    background-color: white !important;
-  }
+.parallax-container .section {
+	width: 100%;
+}
 
-  .embed-container { 
-  background-color: greenyellow;
-  width: 100%;
-  height: 100%;
-  padding: 0;
-  margin: 0 !important; 
-  }
+@media only screen and (max-width: 992px) {
+	.parallax-container .section {
+		position: absolute;
+	}
+}
 
-  .embed-container iframe, .embed-container object, .embed-container embed { 
-  width: 100%;
-  height: 100%;
-  }
-
-  .parallax-container .parallax img {
-    height: 50%;
-  }
-
+@media only screen and (max-width: 600px) {
+	.page-footer {
+		background-color: white !important;
+	}
+	.embed-container {
+		width: 100%;
+		height: 100%;
+		padding: 0;
+		margin: 0 !important;
+	}
+	.embed-container iframe,
+	.embed-container object,
+	.embed-container embed {
+		width: 100%;
+		height: 100%;
+	}
+	.parallax-container .parallax img {
+		height: 50%;
+	}
 }
 
 .icon-block {
-  padding: 0 15px;
+	padding: 0 15px;
 }
+
 .icon-block .material-icons {
-  font-size: inherit;
+	font-size: inherit;
 }
 
 footer.page-footer {
-  margin: 0;
+	margin: 0;
 }
 
 .text-shadow {
-  text-shadow: 2px 2px 2px #000;
+	text-shadow: 2px 2px 2px #000;
 }
 
 .image-blur {
-  filter: blur(1.5px) brightness(0.5);
+	filter: blur(1.5px) brightness(0.5);
 }
 
 .serratec-blue {
-  background-color: #0075b5;
+	background-color: #0075b5;
 }
+
 .serratec-blue:hover {
-  background-color: #005888;
-}
-.serratec-blue:active {
-  background-color: #0075b5;
+	background-color: #005888;
 }
 
 .serratec-blue:active {
-  background-color: #00334e;
+	background-color: #0075b5;
+}
+
+.serratec-blue:active {
+	background-color: #00334e;
 }
 
 .serratec-blue-text {
-  color: #0075b5;
+	color: #0075b5;
 }
 
 .waves-light {
-  background-color: #018dd8;
+	background-color: #018dd8;
 }
 
 #vertical-center h1 {
-  margin: 0;
+	margin: 0;
 }
 
 .justify-text {
-  text-justify: distribute;
-  text-align: justify;
+	text-justify: distribute;
+	text-align: justify;
 }
-
-
 
 .sidenav-trigger {
-  z-index: 0 !important;
+	z-index: 0 !important;
 }
 
-
 .sidenav-overlay {
-  z-index: 1;
+	z-index: 1;
 }
 
 #nav-mobile {
-  z-index: 3;
+	z-index: 3;
 }
+
 .navbar-fixed {
-  z-index: 2;
+	z-index: 2;
 }
 
 .page-footer {
-  display: grid;
-  place-items: center;
-  padding: 0;
+	display: grid;
+	place-items: center;
+	padding: 0;
 }
 
 .page-footer .container {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .footer-copyright {
-  width: 100%;
-  text-align: center;
-  padding: 50px;
+	width: 100%;
+	text-align: center;
+	padding: 50px;
 }
 
 .rounded-border {
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px black;
+	border-radius: 10px;
+	box-shadow: 0px 0px 20px black;
 }
 
-.embed-container { 
-  position: relative; 
-  padding-bottom: 56.25%; 
-  height: 0; 
-  overflow: hidden; 
-  max-width: 100%;
-  margin: 50px;
+.embed-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+	margin: 50px;
 }
 
-.embed-container iframe, .embed-container object, .embed-container embed { 
-  position: absolute; 
-  width: 100%; 
-  height: 100%;
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+	position: absolute;
+	width: 100%;
+	height: 100%;
 }
 
 #vertical-center {
-  padding: 20px;
+	padding: 20px;
 }
+
